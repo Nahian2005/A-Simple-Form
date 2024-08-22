@@ -22,8 +22,19 @@ link.href="https://nahian2005.github.io/Nothing/";
 
 
 link.style.textDecoration="none";
-link.style.fontSize="12rem";
+link.style.fontSize="8rem";
 link.style.color="#fff";
+link.style.fontFamily="sans-serif";
+
+link.addEventListener('mouseover',function(){
+
+    link.style.color="red";
+})
+
+link.addEventListener('mouseout',function(){
+
+    link.style.color="#fff";
+})
 
 
 document.body.appendChild(link); 
